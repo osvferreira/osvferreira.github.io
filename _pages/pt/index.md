@@ -50,14 +50,6 @@ latest_posts:
 
 <p class="text-right"><a href="{{ '/' | relative_url }}">🇬🇧 English version</a></p>
 
-<p class="text-center">
-<a href="{{ '/pt/publicacoes/' | relative_url }}">Publicações</a> ·
-<a href="{{ '/pt/palestras/' | relative_url }}">Palestras</a> ·
-<a href="{{ '/pt/pesquisa/' | relative_url }}">Pesquisa</a> ·
-<a href="{{ '/pt/ensino/' | relative_url }}">Ensino & Divulgação</a> ·
-<a href="{{ '/pt/cv/' | relative_url }}">CV</a>
-</p>
-
 Sou pesquisador de pós-doutorado no [Instituto de Física da Universidade de São Paulo](https://portal.if.usp.br/) (IF-USP). Minha pesquisa situa-se na interface entre física nuclear, astrofísica e cosmologia. Estudo **a matéria fortemente interagente em condições extremas e as formas de observá-la**. No universo primordial, investigo a transição da QCD e suas assinaturas no fundo cosmológico de ondas gravitacionais. Em astrofísica, uso estrelas compactas como sondas da matéria em densidades muito altas. Também calculo propriedades da matéria quente e densa, como sua resposta a campos eletromagnéticos, utilizando QCD perturbativa.
 
 Mais recentemente, tenho aplicado inferência bayesiana à fenomenologia de colisões de íons pesados, contribuindo para a colaboração ExTrEMe (EXperiment and TheoRy in Extreme MattEr). Saiba mais na página de [pesquisa]({{ '/pt/pesquisa/' | relative_url }}) ou consulte meu [CV]({{ '/pt/cv/' | relative_url }}).

@@ -1,0 +1,20 @@
+# Portuguese navigation menu, used by _includes/header.liquid on pages under /pt/.
+# url: Portuguese page; en: its English counterpart (target of the "english" menu link).
+- title: sobre
+  url: /pt/
+  en: /
+- title: publicações
+  url: /pt/publicacoes/
+  en: /publications/
+- title: palestras
+  url: /pt/palestras/
+  en: /talks/
+- title: pesquisa
+  url: /pt/pesquisa/
+  en: /research/
+- title: ensino & divulgação
+  url: /pt/ensino/
+  en: /teaching/
+- title: CV
+  url: /pt/cv/
+  en: /cv/
