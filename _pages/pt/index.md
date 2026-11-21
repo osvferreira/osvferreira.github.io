@@ -11,7 +11,6 @@ profile:
   image_circular: true
   more_info: >
     <div style="text-align: center; margin-top: 0.75rem; font-family: Roboto, sans-serif;">
-    <p style="font-size: 1.2rem; font-weight: 600; margin: 0 0 0.25rem;">Osvaldo Ferreira</p>
     <p style="margin: 0 0 0.6rem; line-height: 1.4;">Pesquisador de pós-doutorado · <a href="https://portal.if.usp.br/" target="_blank" rel="noopener noreferrer">Instituto de Física, Universidade de São Paulo</a></p>
     <p style="font-size: 1.35rem; margin: 0; word-spacing: 0.35rem;">
     <a href="mailto:osvaldof@if.usp.br" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
