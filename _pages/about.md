@@ -32,6 +32,11 @@ latest_posts:
 
 <!-- Wrapper keeps all text in a column beside the profile picture (no wrapping under it) -->
 <style>
+  .profile figure {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   @media (min-width: 576px) {
     .about-main {
       overflow: hidden;
