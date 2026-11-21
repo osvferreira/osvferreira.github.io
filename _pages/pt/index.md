@@ -34,6 +34,16 @@ latest_posts:
   enabled: false
 ---
 
+<!-- Wrapper keeps all text in a column beside the profile picture (no wrapping under it) -->
+<style>
+  @media (min-width: 576px) {
+    .about-main {
+      overflow: hidden;
+    }
+  }
+</style>
+<div class="about-main" markdown="1">
+
 <p class="text-right"><a href="{{ '/' | relative_url }}">🇬🇧 English version</a></p>
 
 <p class="text-center">
@@ -79,3 +89,5 @@ Mais recentemente, tenho aplicado métodos de inferência bayesiana à fenomenol
 {%- endfor -%}
 </ul>
 <p><a href="{{ '/pt/palestras/' | relative_url }}">Ver todas as palestras →</a></p>
+
+</div>

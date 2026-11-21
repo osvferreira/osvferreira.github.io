@@ -31,6 +31,16 @@ latest_posts:
   enabled: false
 ---
 
+<!-- Wrapper keeps all text in a column beside the profile picture (no wrapping under it) -->
+<style>
+  @media (min-width: 576px) {
+    .about-main {
+      overflow: hidden;
+    }
+  }
+</style>
+<div class="about-main" markdown="1">
+
 <p class="text-right"><a href="{{ '/pt/' | relative_url }}">🇧🇷 Versão em português</a></p>
 
 I am a postdoctoral researcher at the [Institute of Physics of the University of São Paulo](https://portal.if.usp.br/) (IF-USP), supported by FAPESP as a member of the thematic project _Multidisciplinary data analysis in Big Data: from high-energy physics to astrophysics and medical sciences_. I received my PhD in Physics from the Federal University of Rio de Janeiro (UFRJ) in 2026, advised by [Eduardo Fraga](https://inspirehep.net/authors/1009599), including a CAPES-PrInt sandwich period at Goethe University Frankfurt with [Jürgen Schaffner-Bielich](https://inspirehep.net/authors/990034). Before that I obtained my MSc in Physics at UFRJ and my BSc in Physics of Materials at the Federal University of Uberlândia (UFU).
@@ -68,3 +78,5 @@ More recently, I have been applying Bayesian inference to the phenomenology of h
 {%- endfor -%}
 </ul>
 <p><a href="{{ '/talks/' | relative_url }}">See all talks →</a></p>
+
+</div>
