@@ -18,7 +18,7 @@ Na Universidade Federal do Rio de Janeiro (UFRJ), lecionei como professor substi
 
 ### Divulgação científica
 
-- **2026:** Entrevista para rádio/TV, _"Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo"_, com E. S. Fraga
+- **2026:** Entrevista para rádio/TV, [_"Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo"_](https://www.youtube.com/watch?v=OJZsfHe1nLM), com E. S. Fraga
 - **2019:** Mesa-redonda sobre a física do filme _Interestelar_
 - **2018:** Organizador da _Semana da Física 2018_ (INFIS-UFU)
 - **2017:** Co-organizador do _CinePrincipia: Estrelas Além do Tempo_

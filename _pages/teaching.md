@@ -19,7 +19,7 @@ At the Federal University of Rio de Janeiro (UFRJ) I taught as a substitute prof
 
 ### Outreach
 
-- **2026:** Radio/TV interview, _"Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo"_ (Gravitational waves may reveal clues about the first instants of the Universe), with E. S. Fraga
+- **2026:** Radio/TV interview, [_"Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo"_](https://www.youtube.com/watch?v=OJZsfHe1nLM) (Gravitational waves may reveal clues about the first instants of the Universe), with E. S. Fraga
 - **2019:** Panel debate on the physics of the film _Interstellar_
 - **2018:** Organizer of the _Semana da Física 2018_ (Physics Week), Institute of Physics, Federal University of Uberlândia
 - **2017:** Co-organizer of _CinePrincipia: Estrelas Além do Tempo_, a film session on science

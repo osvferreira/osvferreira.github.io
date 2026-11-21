@@ -5,16 +5,17 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Osvaldo
 middle_name:
-last_name: Ferreira Neto
+last_name: Ferreira
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Osvaldo Ferreira Neto, postdoctoral researcher at the Institute of Physics of the University of São Paulo (IF-USP), working on
+  Osvaldo Ferreira, postdoctoral researcher at the Institute of Physics of the University of São Paulo (IF-USP), working on
   strongly interacting matter under extreme conditions, from the early Universe to neutron stars and heavy-ion collisions.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: Osvaldo Ferreira, QCD, nuclear physics, astrophysics, cosmology, gravitational waves, compact stars, heavy-ion collisions, quark-gluon plasma
+author: Osvaldo Ferreira
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -110,9 +111,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: /assets/img/osvaldo_profile.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

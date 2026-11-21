@@ -4,7 +4,7 @@ title: português
 permalink: /pt/
 nav: true
 nav_order: 6
-description: Osvaldo Ferreira Neto, pesquisador de pós-doutorado no Instituto de Física da Universidade de São Paulo (IF-USP).
+description: Osvaldo Ferreira, pesquisador de pós-doutorado no Instituto de Física da Universidade de São Paulo (IF-USP).
 subtitle: Pesquisador de pós-doutorado · <a href='https://portal.if.usp.br/' target='_blank'>Instituto de Física da Universidade de São Paulo</a>
 
 profile:

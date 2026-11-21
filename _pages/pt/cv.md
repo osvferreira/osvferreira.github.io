@@ -9,7 +9,7 @@ nav: false
 <p class="text-right"><a href="{{ '/cv/' | relative_url }}">🇬🇧 English version</a> · <a href="{{ '/pt/' | relative_url }}">início</a></p>
 
 - **Currículo Lattes** (em português): [lattes.cnpq.br/6790966492250263](http://lattes.cnpq.br/6790966492250263)
-- **CV em inglês**: [versão web]({{ '/cv/' | relative_url }}) · [PDF]({{ '/assets/rendercv/rendercv_output/Osvaldo_Ferreira_Neto_CV.pdf' | relative_url }})
+- **CV em inglês**: [versão web]({{ '/cv/' | relative_url }}) · [PDF]({{ '/assets/rendercv/rendercv_output/Osvaldo_Ferreira_CV.pdf' | relative_url }})
 - **Publicações**: [INSPIRE-HEP](https://inspirehep.net/authors/2698690) · [Google Scholar](https://scholar.google.com/citations?user=LchBo5kAAAAJ) · [ORCID](https://orcid.org/0000-0002-6711-8308)
 
 ### Resumo

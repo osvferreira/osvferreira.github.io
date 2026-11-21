@@ -1,5 +1,5 @@
 cv:
-  name: Osvaldo Ferreira Neto
+  name: Osvaldo Ferreira
   headline: Postdoctoral Researcher in Theoretical Physics
   email: osvaldof@if.usp.br
   location: São Paulo, Brazil
@@ -221,7 +221,7 @@ cv:
 
     Outreach:
       - label: "2026"
-        details: "Radio/TV interview: *Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo* (with E. S. Fraga)"
+        details: "Radio/TV interview: [*Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo*](https://www.youtube.com/watch?v=OJZsfHe1nLM) (with E. S. Fraga)"
       - label: "2019"
         details: Panel debate on the physics of the film *Interstellar*
       - label: "2018"
