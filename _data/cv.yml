@@ -1,189 +1,237 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Osvaldo Ferreira Neto
+  headline: Postdoctoral Researcher in Theoretical Physics
+  email: osvaldof@if.usp.br
+  location: São Paulo, Brazil
+  website: https://osvferreira.github.io
   social_networks:
-    - network: X
-      username: AlbertEinstein
+    - network: ORCID
+      username: 0000-0002-6711-8308
+    - network: Google Scholar
+      username: LchBo5kAAAAJ
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: osvferreira
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Institute of Physics, University of São Paulo (IF-USP)
+        position: Postdoctoral Researcher (FAPESP fellow)
+        location: São Paulo, Brazil
+        start_date: 2026
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "Member of the FAPESP thematic project *Multidisciplinary data analysis in Big Data: from high-energy physics to astrophysics and medical sciences*."
+          - Bayesian inference for heavy-ion collision phenomenology; contributor to the ExTrEMe (EXperiment and TheoRy in Extreme MattEr) collaboration.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Goethe University Frankfurt
+        position: Visiting PhD student (CAPES-PrInt sandwich programme)
+        location: Frankfurt am Main, Germany
+        start_date: 2024
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - Hosted by Prof. Jürgen Schaffner-Bielich.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Federal University of Rio de Janeiro (UFRJ)
+        position: Substitute Professor
+        location: Rio de Janeiro, Brazil
+        start_date: 2023
+        end_date: 2023
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Undergraduate courses for engineering students (Physics 1; Experimental Physics IV).
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Education:
+      - institution: Federal University of Rio de Janeiro (UFRJ)
+        location: Rio de Janeiro, Brazil
+        area: Physics
+        degree: PhD
+        studyType: PhD
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - "Thesis: *Strongly interacting matter under extreme conditions: From magnetars to the early Universe*."
+          - "Advisor: Prof. Eduardo S. Fraga. CAPES fellowship."
+          - "Sandwich period at Goethe University Frankfurt (CAPES-PrInt), with Prof. Jürgen Schaffner-Bielich."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - institution: Federal University of Rio de Janeiro (UFRJ)
+        location: Rio de Janeiro, Brazil
+        area: Physics
+        degree: MSc
+        studyType: MSc
+        start_date: 2020
+        end_date: 2022
+        highlights:
+          - "Thesis: *Compact Stars as Astrophysical Probes of Strange Matter and Dark Matter*."
+          - "Advisor: Prof. Eduardo S. Fraga. FAPERJ fellowship."
+
+      - institution: Federal University of Uberlândia (UFU)
+        location: Uberlândia, Brazil
+        area: Physics of Materials
+        degree: BSc
+        studyType: BSc
+        start_date: 2016
+        end_date: 2019
+        highlights:
+          - "Thesis: *Explorando a equação de Dirac: Um passeio por Isolantes Topológicos e Férmions de Majorana* (Exploring the Dirac equation: topological insulators and Majorana fermions)."
+          - "Advisor: Prof. Marco Aurélio Boselli."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Are hybrid hydrodynamic models missing soft-pion physics?
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Osvaldo Ferreira
+          - T. S. Domingues
+          - F. G. Gardim
+          - et al.
+        publisher: arXiv:2611.18290 [nucl-th]
+        journal: arXiv:2611.18290 [nucl-th]
+        date: 2026-11
+        url: https://arxiv.org/abs/2611.18290
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Static linear response of hot and dense QCD matter to electromagnetic fields: leading hard and soft QCD corrections"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Osvaldo Ferreira
+          - Eduardo S. Fraga
+          - Tyler Gorda
+          - Risto Paatelainen
+          - Leon Sandbote
+          - Kaapo Seppänen
+        publisher: JHEP 11 (2026) 034
+        journal: JHEP 11 (2026) 034
+        date: 2026-11
+        doi: 10.1007/JHEP11(2026)034
+        url: https://doi.org/10.1007/JHEP11(2026)034
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Signatures from Pion Condensation and Lepton Flavor Asymmetries in the Cosmological Gravitational Wave Background
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Osvaldo Ferreira
+          - Eduardo S. Fraga
+          - Jürgen Schaffner-Bielich
+        publisher: Phys. Rev. Lett. 137, 151001 (2026)
+        journal: Phys. Rev. Lett. 137, 151001 (2026)
+        date: 2026
+        doi: 10.1103/pcbf-pg4p
+        url: https://doi.org/10.1103/pcbf-pg4p
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Chiral symmetry breaking and pion condensation in the early Universe
+        authors:
+          - Osvaldo Ferreira
+          - Eduardo S. Fraga
+          - Maurício Hippert
+          - Jürgen Schaffner-Bielich
+        publisher: Phys. Rev. D 112, 094009 (2025)
+        journal: Phys. Rev. D 112, 094009 (2025)
+        date: 2025
+        doi: 10.1103/bcz6-xxn8
+        url: https://doi.org/10.1103/bcz6-xxn8
+
+      - title: Power corrections to the photon polarization tensor in a hot and dense medium of massive fermions
+        authors:
+          - Osvaldo Ferreira
+          - Eduardo S. Fraga
+        publisher: Phys. Rev. D 109, 016025 (2024)
+        journal: Phys. Rev. D 109, 016025 (2024)
+        date: 2024
+        doi: 10.1103/PhysRevD.109.016025
+        url: https://doi.org/10.1103/PhysRevD.109.016025
+
+      - title: Strange magnetars admixed with fermionic dark matter
+        authors:
+          - Osvaldo Ferreira
+          - Eduardo S. Fraga
+        publisher: JCAP 04 (2023) 012
+        journal: JCAP 04 (2023) 012
+        date: 2023
+        doi: 10.1088/1475-7516/2023/04/012
+        url: https://doi.org/10.1088/1475-7516/2023/04/012
+
+    Awards:
+      - title: Best Poster Presentation
+        authors:
+          - XVI International Workshop on Hadron Physics
+        date: 2025
+        awarder: XVI International Workshop on Hadron Physics
+        summary: "For the poster *Pion condensation and chiral symmetry breaking in the early universe*."
+
+      - title: Bolsa Doutorado Nota 10 (PhD fellowship of excellence)
+        authors:
+          - FAPERJ
+        date: 2025
+        awarder: FAPERJ (Rio de Janeiro State Research Foundation)
+
+      - title: Bolsa Mestrado Nota 10 (MSc fellowship of excellence)
+        authors:
+          - FAPERJ
+        date: 2021
+        awarder: FAPERJ (Rio de Janeiro State Research Foundation)
+
+      - title: Honourable Mention
+        authors:
+          - OBMEP
+        date: 2015
+        awarder: Brazilian Mathematical Olympiad for Public Schools (OBMEP)
+
+    Fellowships:
+      - label: 2026–
+        details: FAPESP postdoctoral fellowship, University of São Paulo
+      - label: "2024"
+        details: CAPES-PrInt sandwich PhD fellowship, Goethe University Frankfurt
+      - label: 2022–2026
+        details: CAPES PhD fellowship, UFRJ
+      - label: 2020–2022
+        details: FAPERJ MSc fellowship, UFRJ
+
+    Selected Talks:
+      - label: "2025"
+        details: "*Chiral symmetry breaking and pion condensation in the early Universe*: 9th Conference on Chirality, Vorticity and Magnetic Fields in Quantum Matter; V INCT-FNA Symposium; XVI International Workshop on Hadron Physics (best poster)"
+      - label: "2024"
+        details: "*Electric field effects on hot and dense media*: Strong and Electroweak Matter (SEWM 2024); International School of Subnuclear Physics, Erice"
+      - label: "2023"
+        details: "*Electric field effects on QCD*: XXI Jorge André Swieca Summer School on Theoretical Nuclear Physics"
+      - label: "2023"
+        details: "*Tidal deformability of strange magnetars admixed with fermionic dark matter*: 2023 CERN Latin-American School of High-Energy Physics"
+      - label: "2022"
+        details: "*Strange magnetars admixed with fermionic dark matter*: 5th Workshop on Non-Perturbative Aspects of QCD; II Spring Meeting of the Brazilian Physical Society; INCT-FNA Symposium"
+      - label: "2021"
+        details: "*Impact of the presence of fermionic dark matter on strange magnetars*: XLI Brazilian Meeting on Particles and Fields (ENFPC)"
+
+    Schools:
+      - label: "2024"
+        details: International School of Subnuclear Physics, Erice, Italy
+      - label: "2023"
+        details: CERN Latin-American School of High-Energy Physics
+      - label: "2023"
+        details: XXI Jorge André Swieca Summer School on Theoretical Nuclear Physics
+      - label: "2019"
+        details: Journeys into Theoretical Physics, ICTP-SAIFR, São Paulo
+      - label: "2019"
+        details: Summer Course, University of São Paulo
+      - label: "2019"
+        details: NRG UFU/2019 Advanced Studies School, Federal University of Uberlândia
+
+    Teaching:
+      - label: "2023"
+        details: Physics 1 (undergraduate, engineering), UFRJ
+      - label: "2023"
+        details: Experimental Physics IV (undergraduate, engineering), UFRJ
+      - label: "2021"
+        details: Experimental Physics 1 (undergraduate), UFRJ, graduate teaching practice
+
+    Service:
+      - label: 2026–
+        details: Referee for *Physics of the Dark Universe*
+
+    Outreach:
+      - label: "2026"
+        details: "Radio/TV interview: *Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo* (with E. S. Fraga)"
+      - label: "2019"
+        details: Panel debate on the physics of the film *Interstellar*
+      - label: "2018"
+        details: Organizer, Semana da Física 2018 (INFIS-UFU)
+      - label: "2017"
+        details: Co-organizer, CinePrincipia (*Estrelas Além do Tempo*)
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Portuguese
+        summary: Native speaker
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        summary: Fluent

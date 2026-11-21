@@ -1,0 +1,101 @@
+# Talks and posters, newest first. Rendered by _pages/talks.md, _pages/pt/palestras.md and the home pages.
+# Fields:
+#   year      (required)
+#   title     (required)
+#   event     conference / school / seminar series
+#   location  e.g. "Erice, Italy"            <- TODO: fill in where missing
+#   type      talk | poster | seminar         <- TODO: fill in where missing
+#   slides    URL to slides (optional)
+#   award     English award text (optional);  award_pt: Portuguese version
+
+- year: 2025
+  title: Pion condensation and chiral symmetry breaking in the early Universe
+  event: XVI International Workshop on Hadron Physics
+  location:
+  type: poster
+  award: Best poster presentation
+  award_pt: Melhor apresentação de pôster
+
+- year: 2025
+  title: Chiral symmetry breaking and pion condensation in the early Universe
+  event: V INCT-FNA Symposium
+  location:
+  type:
+
+- year: 2025
+  title: Pion condensation and chiral symmetry breaking in the early Universe
+  event: 9th Conference on Chirality, Vorticity and Magnetic Fields in Quantum Matter
+  location:
+  type:
+
+- year: 2024
+  title: Electric field effects on hot and dense media
+  event: Strong and Electroweak Matter (SEWM 2024)
+  location:
+  type:
+
+- year: 2024
+  title: Electric field effects on hot and dense media
+  event: "International School of Subnuclear Physics: News from the four interactions"
+  location: Erice, Italy
+  type:
+
+- year: 2023
+  title: Tidal deformability of strange magnetars admixed with fermionic dark matter
+  event: 2023 CERN Latin-American School of High-Energy Physics
+  location:
+  type:
+
+- year: 2023
+  title: Electric field effects on QCD
+  event: XXI Jorge André Swieca Summer School on Theoretical Nuclear Physics
+  location:
+  type:
+
+- year: 2023
+  title: Electric and magnetic susceptibilities of a hot and dense medium of massive fermions
+  event: # TODO: conference name (listed in Lattes only as "Congresso")
+  location:
+  type:
+
+- year: 2023
+  title: Electric field effects on hot or dense QCD
+  event: # TODO: conference name (listed in Lattes only as "Congresso")
+  location:
+  type:
+
+- year: 2022
+  title: Strange magnetars admixed with fermionic dark matter
+  event: 5th Workshop on Non-Perturbative Aspects of QCD
+  location:
+  type:
+
+- year: 2022
+  title: Strange magnetars admixed with fermionic dark matter
+  event: II Spring Meeting of the Brazilian Physical Society (II EPSBF)
+  location:
+  type:
+
+- year: 2022
+  title: Strange magnetars admixed with fermionic dark matter
+  event: INCT-FNA Symposium
+  location:
+  type:
+
+- year: 2022
+  title: Compact Stars as Astrophysical Probes of Strange Matter and Dark Matter
+  event: # TODO: where was this seminar given?
+  location:
+  type: seminar
+
+- year: 2021
+  title: Impact of the presence of fermionic dark matter on strange magnetars
+  event: XLI Brazilian Meeting on Particles and Fields (ENFPC)
+  location:
+  type:
+
+- year: 2018
+  title: Termodinâmica Irreversível e Efeitos Termoelétricos
+  event: VIII Semana de Iniciação Científica e Tecnológica da UFU
+  location: Uberlândia, Brazil
+  type:

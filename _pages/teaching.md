@@ -1,15 +1,25 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: teaching & outreach
+description: courses taught and science communication activities.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+<p class="text-right"><a href="{{ '/pt/ensino/' | relative_url }}">🇧🇷 Versão em português</a></p>
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+### Teaching
 
-{% include courses.liquid %}
+At the Federal University of Rio de Janeiro (UFRJ) I taught as a substitute professor (2023) and through the graduate teaching-practice programme of the Institute of Physics (2021, 2023).
+
+- **Physics 1**, undergraduate course for engineering students, UFRJ, Apr–Dec 2023
+- **Experimental Physics IV**, undergraduate course for engineering students, UFRJ, Apr–Aug 2023
+- **Experimental Physics 1**, undergraduate course, UFRJ, Mar–Jun 2021
+
+### Outreach
+
+- **2026:** Radio/TV interview, _"Ondas gravitacionais podem revelar pistas sobre os primeiros instantes do Universo"_ (Gravitational waves may reveal clues about the first instants of the Universe), with E. S. Fraga
+- **2019:** Panel debate on the physics of the film _Interstellar_
+- **2018:** Organizer of the _Semana da Física 2018_ (Physics Week), Institute of Physics, Federal University of Uberlândia
+- **2017:** Co-organizer of _CinePrincipia: Estrelas Além do Tempo_, a film session on science
