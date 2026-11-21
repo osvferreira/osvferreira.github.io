@@ -58,11 +58,9 @@ latest_posts:
 <a href="{{ '/pt/cv/' | relative_url }}">CV</a>
 </p>
 
-Sou pesquisador de pós-doutorado no [Instituto de Física da Universidade de São Paulo](https://portal.if.usp.br/) (IF-USP), com bolsa FAPESP, e membro do projeto temático _Análise de dados multidisciplinar em Big Data: de Física de Altas Energias à astrofísica e Ciências Médicas_. Sou doutor em Física pela Universidade Federal do Rio de Janeiro (UFRJ, 2026), sob orientação de [Eduardo Fraga](https://inspirehep.net/authors/1009599), com doutorado-sanduíche na Universidade Goethe de Frankfurt (Alemanha) pelo programa CAPES-PrInt, com [Jürgen Schaffner-Bielich](https://inspirehep.net/authors/990034). Sou mestre em Física pela UFRJ e bacharel em Física de Materiais pela Universidade Federal de Uberlândia (UFU).
+Sou pesquisador de pós-doutorado no [Instituto de Física da Universidade de São Paulo](https://portal.if.usp.br/) (IF-USP). Minha pesquisa situa-se na interface entre física nuclear, astrofísica e cosmologia. Estudo **a matéria fortemente interagente em condições extremas e as formas de observá-la**. No universo primordial, investigo a transição da QCD e suas assinaturas no fundo cosmológico de ondas gravitacionais. Em astrofísica, uso estrelas compactas como sondas da matéria em densidades muito altas. Também calculo propriedades da matéria quente e densa, como sua resposta a campos eletromagnéticos, utilizando QCD perturbativa.
 
-Minha pesquisa situa-se na interface entre física nuclear, astrofísica e cosmologia, com foco no **comportamento da matéria fortemente interagente em condições extremas e nas formas de observá-la**. No universo primordial, investigo a transição da QCD e suas assinaturas no fundo cosmológico de ondas gravitacionais. Em astrofísica, estudo estrelas compactas como sondas da matéria em densidades muito altas. Também investigo propriedades da matéria quente e densa, como sua resposta eletromagnética, utilizando métodos de QCD perturbativa.
-
-Mais recentemente, tenho aplicado métodos de inferência bayesiana à fenomenologia de colisões de íons pesados, contribuindo para as atividades da colaboração ExTrEMe (EXperiment and TheoRy in Extreme MattEr).
+Mais recentemente, tenho aplicado inferência bayesiana à fenomenologia de colisões de íons pesados, contribuindo para a colaboração ExTrEMe (EXperiment and TheoRy in Extreme MattEr). Saiba mais na página de [pesquisa]({{ '/pt/pesquisa/' | relative_url }}) ou consulte meu [CV]({{ '/pt/cv/' | relative_url }}).
 
 #### Interesses
 
