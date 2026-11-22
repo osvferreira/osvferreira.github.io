@@ -33,22 +33,27 @@
       overflow: hidden;
     }
   }
-</style> <div class="about-main"> <p class="text-right"><a href="/pt/">🇧🇷 Versão em português</a></p> <p>I am a postdoctoral researcher at the <a href="https://portal.if.usp.br/" rel="external nofollow noopener" target="_blank">Institute of Physics of the University of São Paulo</a> (IF-USP). My research sits at the interface of nuclear physics, astrophysics and cosmology. I study <strong>strongly interacting matter under extreme conditions, and how to observe it</strong>. In the early Universe, I investigate the QCD transition and its signatures in the cosmological gravitational-wave background. In astrophysics, I use compact stars as probes of matter at very high densities. I also compute properties of hot and dense matter, such as its response to electromagnetic fields, using perturbative QCD.</p> <p>More recently, I have been applying Bayesian inference to the phenomenology of heavy-ion collisions, contributing to the ExTrEMe (EXperiment and TheoRy in Extreme MattEr) collaboration. You can read more on the <a href="/research/">research</a> page or download my <a href="/cv/">CV</a>.</p> <h4 id="interests">Interests</h4> <ul> <li>QCD phase diagram and the QCD epoch of the early Universe</li> <li>Cosmological gravitational-wave background</li> <li>Compact stars, dense matter and dark matter</li> <li>Hot and dense QCD with perturbative methods</li> <li>Bayesian inference for heavy-ion collisions</li> </ul> <h4 id="education">Education</h4> <ul> <li> <strong>PhD in Physics</strong>, 2026, Federal University of Rio de Janeiro (with a sandwich period at Goethe University Frankfurt)</li> <li> <strong>MSc in Physics</strong>, 2022, Federal University of Rio de Janeiro</li> <li> <strong>BSc in Physics of Materials</strong>, 2019, Federal University of Uberlândia</li> </ul> <h4 id="recent-publications">Recent publications</h4> <style>
-  .featured-paper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: flex-start;
-    margin-bottom: 1.75rem;
+</style> <div class="about-main"> <p class="text-right"><a href="/pt/">🇧🇷 Versão em português</a></p> <p>I am a postdoctoral researcher at the <a href="https://portal.if.usp.br/" rel="external nofollow noopener" target="_blank">Institute of Physics of the University of São Paulo</a> (IF-USP). My research sits at the interface of nuclear physics, astrophysics and cosmology. I study <strong>strongly interacting matter under extreme conditions, and how to observe it</strong>. In the early Universe, I investigate the QCD transition and its signatures in the cosmological gravitational-wave background. In astrophysics, I use compact stars as probes of matter at very high densities. I also compute properties of hot and dense matter, such as its response to electromagnetic fields, using perturbative QCD.</p> <p>More recently, I have been applying Bayesian inference to the phenomenology of heavy-ion collisions, contributing to the ExTrEMe (EXperiment and TheoRy in Extreme MattEr) collaboration. You can read more on the <a href="/research/">research</a> page or download my <a href="/cv/">CV</a>.</p> <h4 id="interests">Interests</h4> <ul> <li>QCD phase diagram and the QCD epoch of the early Universe</li> <li>Cosmological gravitational-wave background</li> <li>Compact stars, dense matter and dark matter</li> <li>Hot and dense QCD with perturbative methods</li> <li>Bayesian inference for heavy-ion collisions</li> </ul> <h4 id="education">Education</h4> <ul> <li> <strong>PhD in Physics</strong>, 2026, Federal University of Rio de Janeiro (with a sandwich period at Goethe University Frankfurt)</li> <li> <strong>MSc in Physics</strong>, 2022, Federal University of Rio de Janeiro</li> <li> <strong>BSc in Physics of Materials</strong>, 2019, Federal University of Uberlândia</li> </ul> </div> <div class="recent-publications"> <h4 id="recent-publications">Recent publications</h4> <style>
+  /* Full-width section below the profile picture and text column */
+  .recent-publications {
+    clear: both;
+    padding-top: 0.5rem;
   }
-  .featured-paper-media {
-    flex: 0 0 220px;
-    max-width: 100%;
+  /* Two cards side by side; one column on phones */
+  .featured-papers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin-bottom: 1.5rem;
   }
   @media (max-width: 575.98px) {
-    .featured-paper-media {
-      flex-basis: 100%;
+    .featured-papers {
+      grid-template-columns: 1fr;
     }
+  }
+  .featured-paper-media {
+    display: block;
+    margin-bottom: 0.75rem;
   }
   .featured-paper-media video,
   .paper-video video {
@@ -58,9 +63,10 @@
     border: 1px solid var(--global-divider-color);
     background: #ffffff;
   }
-  .featured-paper-text {
-    flex: 1 1 240px;
-    min-width: 0;
+  /* Trim the white margins above/below the plots in the cards (full frame is shown on the paper pages) */
+  .featured-paper-media video {
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
   }
   .featured-paper-title {
     font-weight: 500;

@@ -32,22 +32,27 @@
       overflow: hidden;
     }
   }
-</style> <div class="about-main"> <p class="text-right"><a href="/">🇬🇧 English version</a></p> <p>Sou pesquisador de pós-doutorado no <a href="https://portal.if.usp.br/" rel="external nofollow noopener" target="_blank">Instituto de Física da Universidade de São Paulo</a> (IF-USP). Minha pesquisa situa-se na interface entre física nuclear, astrofísica e cosmologia. Estudo <strong>a matéria fortemente interagente em condições extremas e as formas de observá-la</strong>. No universo primordial, investigo a transição da QCD e suas assinaturas no fundo cosmológico de ondas gravitacionais. Em astrofísica, uso estrelas compactas como sondas da matéria em densidades muito altas. Também calculo propriedades da matéria quente e densa, como sua resposta a campos eletromagnéticos, utilizando QCD perturbativa.</p> <p>Mais recentemente, tenho aplicado inferência bayesiana à fenomenologia de colisões de íons pesados, contribuindo para a colaboração ExTrEMe (EXperiment and TheoRy in Extreme MattEr). Saiba mais na página de <a href="/pt/pesquisa/">pesquisa</a> ou consulte meu <a href="/pt/cv/">CV</a>.</p> <h4 id="interesses">Interesses</h4> <ul> <li>Diagrama de fases da QCD e a época da QCD no universo primordial</li> <li>Fundo cosmológico de ondas gravitacionais</li> <li>Estrelas compactas, matéria densa e matéria escura</li> <li>QCD quente e densa com métodos perturbativos</li> <li>Inferência bayesiana em colisões de íons pesados</li> </ul> <h4 id="formao">Formação</h4> <ul> <li> <strong>Doutorado em Física</strong>, 2026, Universidade Federal do Rio de Janeiro (com período sanduíche na Universidade Goethe de Frankfurt)</li> <li> <strong>Mestrado em Física</strong>, 2022, Universidade Federal do Rio de Janeiro</li> <li> <strong>Bacharelado em Física de Materiais</strong>, 2019, Universidade Federal de Uberlândia</li> </ul> <h4 id="publicaes-recentes">Publicações recentes</h4> <style>
-  .featured-paper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    align-items: flex-start;
-    margin-bottom: 1.75rem;
+</style> <div class="about-main"> <p class="text-right"><a href="/">🇬🇧 English version</a></p> <p>Sou pesquisador de pós-doutorado no <a href="https://portal.if.usp.br/" rel="external nofollow noopener" target="_blank">Instituto de Física da Universidade de São Paulo</a> (IF-USP). Minha pesquisa situa-se na interface entre física nuclear, astrofísica e cosmologia. Estudo <strong>a matéria fortemente interagente em condições extremas e as formas de observá-la</strong>. No universo primordial, investigo a transição da QCD e suas assinaturas no fundo cosmológico de ondas gravitacionais. Em astrofísica, uso estrelas compactas como sondas da matéria em densidades muito altas. Também calculo propriedades da matéria quente e densa, como sua resposta a campos eletromagnéticos, utilizando QCD perturbativa.</p> <p>Mais recentemente, tenho aplicado inferência bayesiana à fenomenologia de colisões de íons pesados, contribuindo para a colaboração ExTrEMe (EXperiment and TheoRy in Extreme MattEr). Saiba mais na página de <a href="/pt/pesquisa/">pesquisa</a> ou consulte meu <a href="/pt/cv/">CV</a>.</p> <h4 id="interesses">Interesses</h4> <ul> <li>Diagrama de fases da QCD e a época da QCD no universo primordial</li> <li>Fundo cosmológico de ondas gravitacionais</li> <li>Estrelas compactas, matéria densa e matéria escura</li> <li>QCD quente e densa com métodos perturbativos</li> <li>Inferência bayesiana em colisões de íons pesados</li> </ul> <h4 id="formao">Formação</h4> <ul> <li> <strong>Doutorado em Física</strong>, 2026, Universidade Federal do Rio de Janeiro (com período sanduíche na Universidade Goethe de Frankfurt)</li> <li> <strong>Mestrado em Física</strong>, 2022, Universidade Federal do Rio de Janeiro</li> <li> <strong>Bacharelado em Física de Materiais</strong>, 2019, Universidade Federal de Uberlândia</li> </ul> </div> <div class="recent-publications"> <h4 id="publicaes-recentes">Publicações recentes</h4> <style>
+  /* Full-width section below the profile picture and text column */
+  .recent-publications {
+    clear: both;
+    padding-top: 0.5rem;
   }
-  .featured-paper-media {
-    flex: 0 0 220px;
-    max-width: 100%;
+  /* Two cards side by side; one column on phones */
+  .featured-papers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+    margin-bottom: 1.5rem;
   }
   @media (max-width: 575.98px) {
-    .featured-paper-media {
-      flex-basis: 100%;
+    .featured-papers {
+      grid-template-columns: 1fr;
     }
+  }
+  .featured-paper-media {
+    display: block;
+    margin-bottom: 0.75rem;
   }
   .featured-paper-media video,
   .paper-video video {
@@ -57,9 +62,10 @@
     border: 1px solid var(--global-divider-color);
     background: #ffffff;
   }
-  .featured-paper-text {
-    flex: 1 1 240px;
-    min-width: 0;
+  /* Trim the white margins above/below the plots in the cards (full frame is shown on the paper pages) */
+  .featured-paper-media video {
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
   }
   .featured-paper-title {
     font-weight: 500;
