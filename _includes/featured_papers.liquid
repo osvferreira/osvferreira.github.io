@@ -1,0 +1,88 @@
+{%- comment -%}
+  "Recent publications" cards with looping video previews (data: _data/featured_papers.yml).
+  Usage: {% include featured_papers.liquid lang="en" %}  or  lang="pt"
+{%- endcomment -%}
+<style>
+  .featured-paper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1.75rem;
+  }
+  .featured-paper-media {
+    flex: 0 0 220px;
+    max-width: 100%;
+  }
+  @media (max-width: 575.98px) {
+    .featured-paper-media {
+      flex-basis: 100%;
+    }
+  }
+  .featured-paper-media video,
+  .paper-video video {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--global-divider-color);
+    background: #ffffff;
+  }
+  .featured-paper-text {
+    flex: 1 1 240px;
+    min-width: 0;
+  }
+  .featured-paper-title {
+    font-weight: 500;
+  }
+  .featured-paper-meta {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    margin: 0.2rem 0 0.4rem;
+  }
+  .featured-paper-text p {
+    margin-bottom: 0;
+  }
+</style>
+<div class="featured-papers">
+  {%- for fp in site.data.featured_papers -%}
+    {%- if include.lang == 'pt' -%}
+      {%- assign fp_url = fp.url_pt -%}
+      {%- assign fp_teaser = fp.teaser_pt -%}
+    {%- else -%}
+      {%- assign fp_url = fp.url_en -%}
+      {%- assign fp_teaser = fp.teaser_en -%}
+    {%- endif %}
+    <div class="featured-paper">
+      <a class="featured-paper-media" href="{{ fp_url | relative_url }}" tabindex="-1" aria-hidden="true">
+        <video
+          src="{{ fp.video | relative_url }}"
+          {% if fp.poster %}
+            poster="{{ fp.poster | relative_url }}"
+          {% endif %}
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+        ></video>
+      </a>
+      <div class="featured-paper-text">
+        <a class="featured-paper-title" href="{{ fp_url | relative_url }}">{{ fp.title }}</a>
+        <div class="featured-paper-meta">
+          {{ fp.authors }} · <em>{{ fp.venue }}</em>, {{ fp.year }}
+        </div>
+        <p>{{ fp_teaser }}</p>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+<script>
+  // Respect the visitor's "reduce motion" setting: stop the looping previews and show play controls instead.
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.featured-paper-media video, .paper-video video').forEach(function (v) {
+      v.removeAttribute('autoplay');
+      v.pause();
+      v.controls = true;
+    });
+  }
+</script>

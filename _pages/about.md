@@ -65,20 +65,10 @@ More recently, I have been applying Bayesian inference to the phenomenology of h
 - **MSc in Physics**, 2022, Federal University of Rio de Janeiro
 - **BSc in Physics of Materials**, 2019, Federal University of Uberlândia
 
-#### Selected publications
+#### Recent publications
 
-<div class="publications">
-{% include selected_papers.liquid %}
-</div>
+{% include featured_papers.liquid lang="en" %}
+
 <p><a href="{{ '/publications/' | relative_url }}">See all publications →</a></p>
-
-#### Recent talks
-
-<ul>
-{%- for t in site.data.talks limit: 5 -%}
-<li><strong>{{ t.title }}</strong>, {{ t.event }}{% if t.location %} ({{ t.location }}){% endif %}, {{ t.year }}{% if t.award %} <i class="fa-solid fa-trophy" title="{{ t.award }}"></i> <em>{{ t.award }}</em>{% endif %}</li>
-{%- endfor -%}
-</ul>
-<p><a href="{{ '/talks/' | relative_url }}">See all talks →</a></p>
 
 </div>

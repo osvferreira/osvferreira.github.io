@@ -1,0 +1,31 @@
+# Papers shown in the "Recent publications" section of the home pages (newest first).
+# Rendered by _includes/featured_papers.liquid; each paper also has its own page (url_en / url_pt).
+- title: Are hybrid hydrodynamic models missing soft-pion physics?
+  authors: O. Ferreira, T. S. Domingues, F. G. Gardim, et al.
+  venue: arXiv:2611.18290
+  year: 2026
+  video: /assets/video_publications/soft_pions.mp4
+  poster: /assets/video_publications/soft_pions_poster.jpg
+  url_en: /papers/soft-pions/
+  url_pt: /pt/artigos/pions-moles/
+  teaser_en: >-
+    A Bayesian analysis shows that state-of-the-art hybrid hydrodynamic models cannot reproduce the excess of soft pions measured by ALICE,
+    pointing to non-equilibrium physics missing from current simulations.
+  teaser_pt: >-
+    Uma análise bayesiana mostra que modelos hidrodinâmicos híbridos de ponta não reproduzem o excesso de píons moles medido pelo ALICE, o que
+    indica efeitos fora do equilíbrio ausentes nas simulações atuais.
+
+- title: Signatures from Pion Condensation and Lepton Flavor Asymmetries in the Cosmological Gravitational Wave Background
+  authors: O. Ferreira, E. S. Fraga, J. Schaffner-Bielich
+  venue: Phys. Rev. Lett. 137, 151001
+  year: 2026
+  video: /assets/video_publications/S07_QCDImprintsGWS.mp4
+  poster: /assets/video_publications/S07_QCDImprintsGWS_poster.jpg
+  url_en: /papers/pion-condensation-gw/
+  url_pt: /pt/artigos/condensacao-de-pions-ondas-gravitacionais/
+  teaser_en: >-
+    Large tau-lepton asymmetries could drive the early Universe into a pion-condensed phase, leaving a distinctive imprint on the nanohertz
+    gravitational-wave background probed by pulsar timing arrays.
+  teaser_pt: >-
+    Grandes assimetrias do lépton tau podem levar o universo primordial a uma fase de condensação de píons, deixando uma marca característica no
+    fundo de ondas gravitacionais de nano-hertz observado por pulsar timing arrays.

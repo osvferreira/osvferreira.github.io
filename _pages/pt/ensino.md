@@ -2,11 +2,16 @@
 layout: page
 permalink: /pt/ensino/
 title: ensino & divulgação
-description: disciplinas ministradas e atividades de divulgação científica.
+description: orientação científica, disciplinas ministradas e atividades de divulgação científica.
 nav: false
 ---
 
 <p class="text-right"><a href="{{ '/teaching/' | relative_url }}">🇬🇧 English version</a> · <a href="{{ '/pt/' | relative_url }}">início</a></p>
+
+### Orientação científica
+
+- **Iniciação científica:** Valeria Gianella Victoria Barrientos Marquez (IAG-USP)  
+  Título: _Inferência bayesiana da equação de estado e das propriedades de estrelas de nêutrons_
 
 ### Ensino
 

@@ -68,20 +68,10 @@ Mais recentemente, tenho aplicado inferência bayesiana à fenomenologia de coli
 - **Mestrado em Física**, 2022, Universidade Federal do Rio de Janeiro
 - **Bacharelado em Física de Materiais**, 2019, Universidade Federal de Uberlândia
 
-#### Publicações selecionadas
+#### Publicações recentes
 
-<div class="publications">
-{% include selected_papers.liquid %}
-</div>
+{% include featured_papers.liquid lang="pt" %}
+
 <p><a href="{{ '/pt/publicacoes/' | relative_url }}">Ver todas as publicações →</a></p>
-
-#### Palestras recentes
-
-<ul>
-{%- for t in site.data.talks limit: 5 -%}
-<li><strong>{{ t.title }}</strong>, {{ t.event }}{% if t.location %} ({{ t.location }}){% endif %}, {{ t.year }}{% if t.award_pt %} <i class="fa-solid fa-trophy" title="{{ t.award_pt }}"></i> <em>{{ t.award_pt }}</em>{% endif %}</li>
-{%- endfor -%}
-</ul>
-<p><a href="{{ '/pt/palestras/' | relative_url }}">Ver todas as palestras →</a></p>
 
 </div>

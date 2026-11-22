@@ -2,12 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching & outreach
-description: courses taught and science communication activities.
+description: student supervision, courses taught and science communication activities.
 nav: true
 nav_order: 4
 ---
 
 <p class="text-right"><a href="{{ '/pt/ensino/' | relative_url }}">🇧🇷 Versão em português</a></p>
+
+### Supervision
+
+- **Undergraduate research (Iniciação Científica):** Valeria Gianella Victoria Barrientos Marquez (IAG-USP)  
+  Project: _Bayesian inference of the equation of state and properties of neutron stars_ (Inferência bayesiana da equação de estado e das propriedades de estrelas de nêutrons)
 
 ### Teaching
 
